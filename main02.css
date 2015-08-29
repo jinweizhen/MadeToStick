@@ -1,0 +1,550 @@
+h1{
+    margin: 0px;
+}
+
+body{
+    background:#444 url("img/light_37-wallpaper-1440x900.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+header .banner{
+    height: auto;
+    width: 100%;
+    background-color: #65BA99;
+    text-align: center ;
+    opacity: 0.5;
+}
+
+header .banner h1{
+    padding: 40px;
+    font-size: 150px;
+}
+header nav{
+    height: 20px;
+    background-color: rgba(56, 70, 76, 0.86);
+    opacity: 0.9;
+}
+
+.breadcrumb{
+    float: left;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    opacity: 0.6;
+}
+
+.breadcrumb:hover{
+    opacity: 0.8;
+}
+.breadcrumb ul {
+    list-style: none;
+    float: right;
+    position: relative;
+    display: inline-block;
+    transition: all 0.35s;
+}
+
+.breadcrumb ul li{
+    display: inline-block;
+    background-color: #2F403B;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: -53px;
+    float: right;
+    transition: all 0.35s;
+}
+
+.breadcrumb ul li a{
+    background-color: #47615D;
+    color: #ffffff;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding-right: 30px;
+    padding-left: 50px;
+    overflow: hidden;
+    transition: all 0.35s;
+
+    text-decoration: none;
+
+}
+
+.breadcrumb ul li:hover a{
+    width: 150px;
+    opacity: 1;
+}
+
+
+.breadcrumb  li:last-child a {
+    padding: 0;
+}
+
+
+
+
+
+/*sec01*/
+
+
+.sec01{
+    height: 400px;
+
+}
+
+
+
+.no01 {
+    height: auto;
+    width: 100%;
+    background: #0086b3;
+
+    text-align: center;
+
+
+}
+
+.no01:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+figure{
+    height: 350px;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+figcaption {
+    font-size: 20px;
+}
+
+figure img{
+    height: 350px;
+}
+
+.no01 img{
+    opacity: 1;
+}
+.no01 .fig01 ,.fig03{
+    background: #ffffff;
+
+
+}
+
+
+
+
+.no01 .fig02,.fig04{
+    background: #000000;
+}
+
+
+.fig01{
+    background: #0086b3;
+
+}
+
+.fig01 figcaption{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 3%;
+    padding-top: 55%;
+
+}
+
+.fig01 figcaption p{
+    background: #509378;
+    color: #ffffff;
+    margin: 3px;
+    transform: translate(-130px);
+
+}
+
+.fig01:hover figcaption p
+{
+    transform: translate(0px);
+}
+
+.fig01:hover figcaption p:first-child
+{
+    transition-delay: 0.05s;
+}
+
+
+.fig01:hover figcaption p:nth-of-type(2)
+{
+    transition-delay: 0.1s;
+}
+.fig01:hover figcaption p:nth-of-type(3)
+{
+    transition-delay: 0.15s;
+}
+
+.fig01  img  {
+    opacity: 0.9;
+
+}
+
+.fig01:hover  img  {
+    transform: scale(1.2,1.2);
+
+}
+
+.bgcolor{
+    width:100%;
+    height: 100%;
+    background: #509378;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.1;
+
+}
+
+.fig01:hover .bgcolor{
+    opacity: 0.3;
+
+}
+
+
+.fig02 figcaption{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 13%;
+    padding-top: 55%;
+
+}
+
+.fig02 figcaption p{
+    background: #000000;
+    color: #ffffff;
+    margin: 3px;
+    transform: skew(90deg);
+
+}
+
+.fig02:hover figcaption p
+{
+    transform: skew(0deg);
+}
+
+.fig02:hover figcaption p:first-child
+{
+    transition-delay: 0.05s;
+}
+
+
+.fig02:hover figcaption p:nth-of-type(2)
+{
+    transition-delay: 0.1s;
+}
+.fig02:hover figcaption p:nth-of-type(3)
+{
+    transition-delay: 0.15s;
+}
+
+
+.fig02:hover img{
+    transform:translate(30px) ;
+}
+
+
+
+/*fig03*/
+.fig03 {
+    position: relative;
+    font-size: 40px;
+}
+
+.fig03  .div1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    width: 80%;
+    height: 80%;
+    border: 3px solid #222222;
+    background: #ff0000;
+    opacity: 0.2;
+
+    transform: translate(0px,-320px) rotate(0deg);
+
+}
+
+.fig03  .div2{
+    background: #0000ff;
+    opacity: 0.1;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: #ffffff;
+    width: 60%;
+    height: 60%;
+    border: 3px solid #222222;
+
+
+    transform: translate(350px,0px) rotate(0deg);
+
+
+}
+
+
+
+.fig03  .div3{
+    background: #00ff00;
+    opacity: 0.1;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+    width: 40%;
+    height: 40%;
+    border: 3px solid #222222;
+
+    padding: 8%;
+
+    transform: translate(0px,320px) rotate(0deg);
+
+
+}
+
+
+
+.fig03:hover  .div1{
+
+    transform: translate(0px,0px) rotate(360deg);
+
+}
+
+
+.fig03:hover  .div2{
+    transition-delay: 0.5s;
+    transform: translate(0px,0px) rotate(360deg);
+}
+
+
+.fig03:hover  .div3{
+    transition-delay: 1s;
+    transform: translate(0px,0px) rotate(360deg);
+}
+
+
+.fig03:hover img{
+    transform: scale(1.4,1.7);
+    opacity: 0.6;
+}
+
+
+/*fig04*/
+
+.fig04{
+    position: relative;
+}
+.fig04:hover img{
+    transform: translate(20px,14px) scale(1.2,1.2);
+
+}
+
+.fig04 figcaption{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #ffffff;
+}
+
+.fig04 figcaption {
+    font-size: 30px;
+}
+
+
+
+.fig04 p {
+    transform: rotate(-90deg) ;
+    transform-origin: 0px 0px;
+    opacity: 0;
+
+}
+
+.fig04:hover p {
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+footer{
+    height: 20px;
+    background: #000000;
+    opacity: 0.6;
+}
+
+
+body{
+    position: relative;
+}
+
+
+
+
+
+
+figcaption p,div,img{
+    transition: all 0.35s;
+}
+
+
+/*fig05*/
+
+.fig05{
+    width: 50%;
+    background-color: #1D893B;
+    position: relative;
+}
+
+.fig05 img,.fig06 img{
+    width: 100%;
+}
+
+
+.fig05 figcaption{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20%;
+}
+
+
+
+
+.fig05 figcaption p{
+    background: #1D893B;
+    color: #ffffff;
+    margin: 3px;
+    font-size: 50px;
+    font-weight: 300;
+    transform: translate(0px);
+    border-radius: 50px;
+    padding: 16px;
+    opacity: 0;
+
+}
+
+
+.fig05:hover figcaption p{
+    opacity: 0.7;
+}
+
+.fig05 img{
+    transform: rotate(0deg);
+    opacity: 0.8;
+}
+.fig05:hover img{
+    transform: rotate(2deg) scale(1.1,1.1);
+    transform-origin: 0px 70px;
+
+
+}
+
+
+
+
+/*fig06*/
+
+
+
+
+
+.fig06{
+    width: 50%;
+    background-color: #122b40;
+    position: relative;
+}
+
+.fig06 figcaption{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+
+.fig06 p{
+    font-size: 50px;
+    transform: translate(0px,-60px);
+    opacity: 0;
+}
+
+.fig06:hover p{
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+
+.fig06 img{
+    transform: rotate(0deg) scale(1.2,1.2);
+
+}
+
+.fig06:hover img{
+    transform: rotate(360deg) scale(1,1);
+    opacity: 0.8;
+}
+
+@media screen and (min-width:1001px){
+    figure{width:25%;}
+    .fig05,.fig06{width: 50%}
+
+}
+
+@media screen and (max-width:1001px) and (min-width:700px){
+    figure{width:50%;}
+    .fig05,.fig06{width: 50%;}
+
+}
+
+@media screen and (max-width:699px) {
+    figure{width:100%;}
+    .fig05,.fig06{width: 100%;}
+
+}
+
+
+.no02{
+    height: auto;
+    background-color: #0086b3;
+    opacity: 0.3;
+    text-align: center;
+
+
+}
+
+.no02 p{
+    font-size: 150px;
+    padding: 40px;
+    margin: 0;
+}
+
+
+footer{
+    height: 20px;
+    background-color: rgba(56, 70, 76, 0.86);
+    opacity: 0.9;
+}
