@@ -73,7 +73,7 @@ header nav{
     transition: all 0.35s;
 
     text-decoration: none;
-
+    cursor:pointer;
 }
 
 .breadcrumb ul li:hover a{
